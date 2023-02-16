@@ -12,7 +12,7 @@
   hosts: all
   connection: local
   vars_files:
-    - var.yml
+    - 1var.yml
   tasks:
     - name: declaring and acessing variable antoher file level
       ansible.builtin.debug:
