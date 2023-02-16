@@ -1,5 +1,5 @@
 - name: Declare variable at playbook
-  host: all
+  hosts: all
   vars:
     URL: paly.kiran.com
   tasks:
