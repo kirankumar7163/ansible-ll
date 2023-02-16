@@ -1,0 +1,8 @@
+- name: Declare variable at playbook
+  host: all
+  vars:
+    URL: paly.kiran.com
+  tasks:
+    - name: Access variable
+      ansible.builtin.debug:
+        msg: URL == {{URL}}
