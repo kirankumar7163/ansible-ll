@@ -1,0 +1,5 @@
+- name: pring demo for role
+  hosts: all
+  connection: local
+  roles:
+    - demo
